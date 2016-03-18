@@ -14,6 +14,7 @@ Because you will need an SD-card with a bootable linux image.
       diskutil unmountdisk /dev/diskxx
    * Flash your SD Card:  
       sudo dd if=hypriot-rpi-201???.img of=/dev/rdiskxx bs=1m  
+
 ## 2. Share internet Connection with you Pi
 
 - Plugin  your Pi to your MAc using an ethernet cable
@@ -22,4 +23,8 @@ Because you will need an SD-card with a bootable linux image.
 
 ## 3. Connect to your Raspberry Pi via ssh:
 
-   nlrnvlnlr
+    arp -a
+Get the IP address of the raspberry Pi
+
+    ssh pi@xx.xx.xx.xx
+# Have fun!
