@@ -8,11 +8,18 @@ Because you will need an SD-card with a bootable linux image.
    * unzip the downloaded image first! 
    * Put your SD Card into your Mac
    * Run:  
-
       diskutil list
    * Get the identifier of the SD Card (/dev/diskxx)
    * Unmount the SD card:  
       diskutil unmountdisk /dev/diskxx
    * Flash your SD Card:  
-      sudo dd if=hypriot-rpi-201???.img of=/dev/rdiskxx bs=1m
-   
+      sudo dd if=hypriot-rpi-201???.img of=/dev/rdiskxx bs=1m  
+## 2. Share internet Connection with you Pi
+
+- Plugin  your Pi to your MAc using an ethernet cable
+- Open System Preferneces / Sharing 
+- Ckeck the "Internet Sharing" case.
+
+## 3. Connect to your Raspberry Pi via ssh:
+
+   nlrnvlnlr
