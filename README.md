@@ -8,6 +8,7 @@ Because you will need an SD-card with a bootable linux image.
    * unzip the downloaded image first! 
    * Put your SD Card into your Mac
    * Run:  
+
       diskutil list
    * Get the identifier of the SD Card (/dev/diskxx)
    * Unmount the SD card:  
