@@ -20,7 +20,7 @@ Because you will need an SD-card with a bootable linux image.
 
 ## 2. Share internet Connection with you Pi
 
-- Plugin  your Pi to your MAc using an ethernet cable
+- Plug in  your Pi to your Mac using an ethernet cable
 - Open System Preferneces / Sharing 
 - Ckeck the "Internet Sharing" case.
 
